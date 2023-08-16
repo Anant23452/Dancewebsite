@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,400&family=Libre+Baskerville:ital,wght@0,700;1,400&family=Rajdhani:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#nvbar {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #ff8763;
+    /* margin: -8px -8px; */
+    font-family: 'Borel', cursive;
+}
+
+#logo {
+    display: flex;
+    color: rgb(31, 28, 28);
+    align-items: center;
+    margin: 3px 3px;
+    height: 42px;
+    ;
+}
+
+#logo>img {
+    width: 60px;
+    height: 60px;
+    margin: 0px -12px;
+}
+
+#nvbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    text-align: center;
+
+}
+
+li {
+    padding: 10px 69px;
+    list-style: none;
+    font-size: 20px;
+}
+
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
+li>a:hover {
+    text-decoration: none;
+    color: rgb(251, 245, 245);
+}
+
+#contact {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: 'Caprasimo', cursive;
+    margin-top: 12px;
+    background-color: aliceblue;
+
+}
+.container{
+    min-height: 80vh;
+    margin-top: 12px;
+    background: url("/static/top.jpg") center/cover no-repeat fixed ;
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.myinput {
+    width: 50%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid #cc7110;
+    border-radius: 6px;
+    background-color: aliceblue;
+    box-shadow: 6px 4px 8px 3px #e6a18696;
+    outline: none;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+}
+
+.btn {
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    box-shadow: 6px 4px 8px 3px #e6a18696;
+    border: 2px solid #cc7110;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #ff8763;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    background-color: #030303db;
+    height: 37px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: white;
+}

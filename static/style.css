@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,400&family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,400&family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#nvbar {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #ff8763;
+    /* margin: -8px -8px; */
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#logo {
+    display: flex;
+    color: rgb(31, 28, 28);
+    align-items: center;
+    margin: 3px 3px;
+    height: 42px;
+    ;
+}
+
+#logo>img {
+    width: 60px;
+    height: 60px;
+    margin: 0px -12px;
+}
+
+#nvbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    text-align: center;
+
+}
+
+li {
+    padding: 10px 69px;
+    list-style: none;
+    font-size: 20px;
+}
+
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
+li>a:hover {
+    text-decoration: none;
+    color: rgb(251, 245, 245);
+}
+
+#introsection {
+    background: url("/static/top.jpg") center/cover no-repeat #ccc;
+    height: 500px;
+    color: rgb(255, 245, 245);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Borel', cursive;
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    flex-direction: column;
+}
+
+#intromission {
+    height: 400px;
+    background-color: #ff8763;
+    font-family: 'Borel', cursive;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 26%;
+    margin: 12px 46px;
+    height: 267px;
+    font-size: 20px;
+    display: inline-block;
+    background-color: #fffdfd;
+
+}
+.card-box{
+
+}
+.card-img{
+
+}
+.card-img>img{
+    width: 96px;
+    height: 91px;
+}
+.card-content{
+font-weight: lighter;
+}
+
+#introsponser {
+    background: url("/static/img/middle.jpg")center center/cover no-repeat;
+    height: 382px;
+    /* text-align: center; */
+    padding-top: 20px;
+    font-family: 'Borel', cursive;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: white;
+}
+#sponsers{
+    height: 120px;
+    margin: auto;
+    width: 1274px;
+
+}
+#sponsers>img{
+height: 80px;
+margin: 20px;
+
+}
+#footer {
+    background-color: #030303;
+    height: 37px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: white;
+
+}

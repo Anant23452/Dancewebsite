@@ -1,0 +1,29 @@
+extends base.pug
+
+block scripts
+  script(src='/static/script.js')
+  
+block style 
+    style
+      include ../static/stylecontact.css
+block content   
+    nav#nvbar 
+        ul
+           #logo 
+            img(src="/static/img/Dance.png", alt="")
+            | HDA 
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class info ]
+            li #[a(href="/contact") Contact us]
+
+    #contact contact us
+    .container 
+        form(action="/contact",method="post",class="myform") 
+            input(type="text",class="myinput",name="name",placeholder="your name")
+            input(type="phone",class="myinput",name="phone",placeholder="contact number")
+            input(type="email",class="myinput",name="email",placeholder="your email")
+            input(type="adress",class="myinput",name="adress",placeholder="your adress")
+
+            button.btn sumbit 

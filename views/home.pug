@@ -1,0 +1,57 @@
+extends base.pug 
+
+block scripts
+  script(src='/static/script.js')
+block style 
+    style
+      include ../static/style.css
+block content 
+    nav#nvbar 
+        ul
+            #logo 
+                img(src="/static/img/Dance.png", alt="")
+                |HDA   
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class info ]
+            li #[a(href="/contact") Contact us]
+    section#introsection 
+      div  welcome to anant dance accadamy
+      div  eat sleep dance repeat
+      
+    section#intromission 
+      h1  our missions
+      .card dance perfection
+        .card-box 
+           .card-img 
+            img(src="/static/img/images.png", alt="")
+        .card-content 
+            p this is  the best dance accadamy in india 
+
+
+      .card dance the way you like 
+        .card-box 
+           .card-img 
+            img(src="/static/img/kathakali.png", alt="")
+        .card-content 
+            p this is  the best dance accadamy in india 
+      .card expert teaching 
+        .card-box 
+           .card-img 
+            img(src="/static/img/woman.png", alt="")
+        .card-content 
+            p this is  the best dance accadamy in india 
+    
+      
+      
+    section#introsponser 
+      | our sponsers
+      #sponsers 
+        img(src="/static/img/logo9.png", alt="Spnsser img")
+        img(src="/static/img/logo2.png", alt="Spnsser img")
+        img(src="/static/img/logo7.avif", alt="Spnsser img")
+        img(src="/static/img/logo4.png", alt="Spnsser img")
+        img(src="/static/img/logo5.avif", alt="Spnsser img")
+        
+      
